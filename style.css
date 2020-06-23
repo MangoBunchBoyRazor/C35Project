@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: -60px;
+    padding: 0;
+}
+h1 {
+    color: royalblue;
+    text-decoration: underline;
+}
+h2 {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+canvas {
+    display: block;
+}
+input[type=text] {
+    width: 16%; 
+    margin-left: 50px;
+    margin-top: 10px;
+    transition-duration: 0.2s;
+    border: none;
+    border-bottom: 2px solid black;
+}
+input[type=text]:hover {
+    width: 20%;
+}
+input[type=radio] {
+    margin-left: 30px;
+}
+select {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 100px;
+}
+input[type=checkbox]{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#question1,#question2,#question3,#question4,#question5,#question6,#question7 {
+    margin-top: 20px;
+}
+textarea {
+    border-radius: 10px; 
+    margin-left: 20px; 
+    margin-top: 10px;
+}
+button {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 75px;
+    height: 30px;
+}
